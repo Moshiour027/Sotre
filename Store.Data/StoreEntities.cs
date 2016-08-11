@@ -4,9 +4,9 @@ using System.Data.Entity;
 
 namespace Store.Data
 {
-    public class StoreContext : DbContext
+    public class StoreEntities : DbContext
     {
-        public StoreContext() : base("StoreContext")
+        public StoreEntities() : base("StoreEntities")
         {
         }
 
