@@ -12,6 +12,5 @@ namespace Store.Model.Models
         public DateTime? DateUpdated { get; set; }
 
         public virtual List<Gadget> Gedgets { get; set; }
-
     }
 }
